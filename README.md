@@ -5,7 +5,7 @@ Parse evtx files and detect use of the DanderSpritz `eventlogedit` module
 ## Usage
 
 ```
-devop@Dev-VM:~/Dsz$ ./danderspritz_evtx.py -h
+$ ./danderspritz_evtx.py -h
 usage: danderspritz_evtx.py [-h] -i INPUT_PATH [-o OUTPUT_PATH]
                             [-e EXPORT_PATH]
 
@@ -25,7 +25,7 @@ optional arguments:
 ## Example output
 
 ```
-devop@Dev-VM:~/Dsz$ ./danderspritz_evtx.py -i Security.evtx -o Security_fixed.evtx -e Security_export.xml
+$ ./danderspritz_evtx.py -i Security.evtx -o Security_fixed.evtx -e Security_export.xml
 Reading records from Security.evtx...
 Found a deleted record within record number 2112 at offset 0x1EA0
 Found a deleted record within record number 2112 at offset 0x1CD8
