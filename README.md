@@ -4,6 +4,8 @@ Parse evtx files and detect use of the DanderSpritz `eventlogedit` module
 * Blog post here: https://blog.fox-it.com/2017/12/08/detection-and-recovery-of-nsas-covered-up-tracks/
 * Precompiled Windows binary here: https://github.com/fox-it/danderspritz-evtx/releases
 
+Example evtx files can be found in [examples](https://github.com/fox-it/danderspritz-evts/examples/)
+
 ## Usage
 
 ```
